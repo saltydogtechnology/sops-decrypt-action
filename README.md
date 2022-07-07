@@ -21,7 +21,7 @@ secrets/
 ## Example Usage
 
 ```yaml
-uses: rmb938/sops-decrypt-action@master
+uses: saltydogtechnology/sops-decrypt-action@master
 with:
   secrets-directory: secrets
 ```
