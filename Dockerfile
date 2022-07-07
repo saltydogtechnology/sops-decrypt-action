@@ -1,5 +1,4 @@
-# v3.5.0
-FROM mozilla/sops:v3.6.1
+FROM mozilla/sops:v3.7.3
 
 COPY entrypoint.sh /entrypoint.sh
 
