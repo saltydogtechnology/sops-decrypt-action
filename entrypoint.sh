@@ -11,6 +11,8 @@ fi
 full_path=${GITHUB_WORKSPACE}/${secrets_directory}
 
 if [ ! -d "${full_path}" ]; then
+    echo "current directory $(pwd)"
+    echo "SOPS_AGE_KEY ENV: ${SOPS_AGE_KEY}"
     echo "secrets-directory ${secrets_directory} does not exist in ${GITHUB_WORKSPACE}"
     exit 1
 fi
